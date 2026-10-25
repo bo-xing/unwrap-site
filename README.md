@@ -33,8 +33,8 @@ python3 -m http.server 8080
 
 ## 发布状态与内容约定
 
-- App 当前尚未发布，首页明确标记“即将登陆”，主按钮跳转到功能介绍；没有无效的下载按钮。
-- App 正式上线后，将首页状态改为已上线，并添加真实 App Store 地址 `https://apps.apple.com/app/id6808937701`。
+- 2026-10-25 已从 App Store Connect 回读确认 1.0.0 为 READY_FOR_DISTRIBUTION；首页提供真实下载地址 `https://apps.apple.com/app/id6808937701`，供应情况因地区而异。
+- 1.1.0 正在准备更新；支持页明确标出新增布局与目录整理说明的版本范围。1.1 正式发布后移除该预告说明。
 - 公共支持邮箱沿用同开发者其他产品的 `boxing.support@gmail.com`。
 - 主视觉是示例压缩包内容的网页插画，带明确的辅助文字说明，并非实际 App 截图。
 - Pro 为一次性非消耗型内购；网页不硬编码不同地区售价。ZIP、7z、tar.gz 创建属 Pro，创建密码保护仅支持 ZIP。

@@ -106,7 +106,7 @@ def home(lang, d):
     return f'''
 <section class="hero" aria-labelledby="hero-title">
 <div class="hero-copy"><p class="eyebrow">{e(h['eyebrow'])}</p><h1 id="hero-title">{h['heading']}</h1><p class="intro">{e(h['intro'])}</p>
-<div class="actions">{link(h['primary'], '#features', 'button', 'down')}{link(h['secondary'], 'support/')}</div><p class="availability">{e(h['availability'])}</p></div>
+<div class="actions">{link(h['primary'], h['primary_url'], 'button', 'arrow')}{link(h['secondary'], 'support/')}</div><p class="availability">{e(h['availability'])}</p></div>
 <div class="archive-art" role="img" aria-label="{e(h['art_label'])}">
 <svg class="art-star" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M50 5v90M5 50h90M18 18l64 64M18 82l64-64"/></svg>
 <div class="archive-window" aria-hidden="true"><img class="art-logo" src="{prefix}assets/app-icon.png" width="85" height="85" alt="">
